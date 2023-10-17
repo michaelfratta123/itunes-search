@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm component renders correctly 1`] = `
+<form
+  className="m-3 p-3"
+>
+  <div
+    className="align-items-center m-auto row"
+  >
+    <div
+      className="col-md-7"
+    >
+      <div
+        className="mb-3"
+      >
+        <label
+          className="form-label"
+          htmlFor="formSearchTerm"
+        >
+          Search for something in iTunes
+        </label>
+        <input
+          className="form-control"
+          id="formSearchTerm"
+          onChange={[Function]}
+          placeholder="Enter search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="mb-3"
+      >
+        <label
+          className="form-label"
+          htmlFor="formMediaType"
+        >
+          Select media type
+        </label>
+        <select
+          className="form-select"
+          id="formMediaType"
+          onChange={[Function]}
+          value="movie"
+        >
+          <option
+            value="movie"
+          >
+            Movie
+          </option>
+          <option
+            value="podcast"
+          >
+            Podcast
+          </option>
+          <option
+            value="music"
+          >
+            Music
+          </option>
+          <option
+            value="musicVideo"
+          >
+            Music Video
+          </option>
+          <option
+            value="audiobook"
+          >
+            Audiobook
+          </option>
+          <option
+            value="shortFilm"
+          >
+            Short Film
+          </option>
+          <option
+            value="software"
+          >
+            Software
+          </option>
+          <option
+            value="tvShow"
+          >
+            TV Show
+          </option>
+          <option
+            value="all"
+          >
+            All
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="col-md-2"
+    >
+      <button
+        className="mt-3 btn btn-dark"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+</form>
+`;
